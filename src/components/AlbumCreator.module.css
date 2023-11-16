@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.albumNameInput, .cardInput, .generateButton {
+    display: block; /* Make each element a block-level element */
+    width: 80%; /* Adjust the width as needed */
+    margin: 10px auto; /* Center alignment and spacing */
+    padding: 8px; /* Padding for better visuals */
+}
+
+.albumNameInput {
+    margin-bottom: 15px;
+}
+
+.cardInput {
+    margin-bottom: 15px;
+}
+
+.generateButton {
+    background-color: #5c0d07;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,17 +1,15 @@
 # Karuta Visual Album Creator
 
 ## About
-Karuta Visual Album Creator is a React application designed to generate a visual representation of Karuta cards. This tool helps users to create, visualize, and organize their Karuta card collections in a user-friendly interface.
+Karuta Visual Album Creator is a React-based application that lets users generate and organize visual representations of their Karuta card collections. It provides a user-friendly interface for creating albums and exporting commands to replicate these albums in the Karuta Discord bot.
 
 ## Features
-- Create visual albums of Karuta cards.
-- View albums in a grid layout.
-- Select and rearrange cards within albums.
-- Responsive design for different screen sizes.
+- **Create Visual Albums**: Users can create albums of Karuta cards with a customizable layout.
+- **Drag-and-Drop Interface**: Easy to use drag-and-drop functionality for rearranging cards within an album.
+- **Export to Karuta Commands**: Generates commands to replicate the album in the Karuta Discord bot, considering the album name, number of pages, and card positions.
+- **Responsive Design**: Adapted for various screen sizes for a seamless user experience.
 
 ## Installation
-
-To set up the project on your local machine:
 
 1. **Clone the Repository**
    ```bash

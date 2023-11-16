@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.commandOutput {
+    display: block; /* Make the textarea a block-level element */
+    width: 80%; /* Adjust the width as needed */
+    margin: 10px auto; /* Center alignment and spacing */
+    padding: 8px; /* Padding for better visuals */
+    height: 150px; /* Set an appropriate height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+    font-family: monospace; /* Optional: for better readability of commands */
+}
+
+.exportButton {
+    background-color: #5c0d07;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 15px; /* Padding for a better button size */
+    font-size: 1em; /* Adjust the font size as needed */
+    margin-top: 10px; /* Spacing above the button */
+}

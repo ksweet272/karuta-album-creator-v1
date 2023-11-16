@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://i.ibb.co/2qSC1DZ/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.album-page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    justify-content: center; /* Center the entire grid */
+    column-gap: 5px; /* Adjust the horizontal gap between cards */
+    /* Keep the vertical gap if needed, or remove it if not */
+    gap: 10px; /* This sets both vertical and horizontal gaps */
+    margin-bottom: 20px;
+    background-image: url('https://d2l56h9h5tj8ue.cloudfront.net/images/backgrounds/darkplaster.jpg');
+    /* Other styles */
+}
+
+.page-footer {
+    grid-column: 1 / -1; /* Footer spans all columns */
+    text-align: center;
+    font-size: 1em;
+	color: white;
+    margin-top: 10px;
+}
+
+.album-page-title {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-items: center;
+    width: 1280px; /* Set the width of the album */
+    height: 720px; /* Set the height of the album */
+    margin: 20px auto; /* Center the album on the page */
+    /* Add other styling as needed */
+}
+
+.card {
+    width: 274px; /* Fixed width */
+    height: 405px; /* Fixed height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #c995a0;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+	margin: 10px; /* Add margin to each card for better spacing */
+}
+
+.card .card-image-container {
+    height: 50%; /* Allocate 50% of card height to image */
+    margin-bottom: 10px; /* Reduced space between image and text */
+}
+
+.card img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height of the container */
+    object-fit: contain; /* Fit the content within the frame */
+    border-radius: 8px;
+}
+
+.card p {
+    margin: 2px 0; /* Reduced margin */
+    font-size: 0.9em; /* Adjusted font size */
+    line-height: 1.2; /* Adjusted line spacing */
+}
+
+@media (max-width: 768px) {
+    .album-page {
+        grid-template-columns: repeat(2, 1fr); /* Adjust for smaller screens */
+    }
+}
